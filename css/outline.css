@@ -18,12 +18,12 @@ body {
 }
 
 h1 {
-    font-size: 25px;
+    font-size: 27px;
     line-height: normal;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 23px;
     line-height: normal;
 }
 
@@ -59,7 +59,12 @@ aside {
     position: absolute;
 }
 
+.img2 {
+    width: 400px;
+    height: 400px;
+}
+
 footer {
-    margin-top: 150px;
+    margin-top: 80px;
     text-align: center;
 }
