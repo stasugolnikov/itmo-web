@@ -46,16 +46,15 @@ aside {
 .img {
     width: 375px;
     height: 263px;
-    top: 105px;
+    margin-top: -50px;
     margin-left: 500px;
     position: absolute;
-    display: flex;
     box-shadow: 0 0 5px;
 }
 
 .img + p {
     margin-top: 220px;
-    width:  1360px;
+    margin-left: 575px;
     text-align: center;
     position: absolute;
 }
