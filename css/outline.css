@@ -50,6 +50,7 @@ aside {
     margin-left: 500px;
     position: absolute;
     display: flex;
+    box-shadow: 0 0 5px;
 }
 
 .img + p {
@@ -62,6 +63,7 @@ aside {
 .img2 {
     width: 400px;
     height: 400px;
+    box-shadow: 0 0 5px;
 }
 
 footer {
