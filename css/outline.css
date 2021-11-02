@@ -64,3 +64,7 @@ footer {
     margin-top: 80px;
     text-align: center;
 }
+
+address {
+    text-decoration: underline
+}
