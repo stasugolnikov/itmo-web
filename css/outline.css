@@ -89,7 +89,6 @@ header {
   }
 
 .resume .resume_left ul li {
-  display: flex;
   margin-bottom: 10px;
   align-items: center;
 }
@@ -105,7 +104,6 @@ header {
 }
 
 .resume .resume_left .resume_skills ul li {
-  display: flex;
   margin-bottom: 10px;
   color: #b1eaff;
   justify-content: space-between;
@@ -129,13 +127,6 @@ header {
   width: 15%;
 }
 
-.resume .resume_left .resume_skills ul li .skill_progress span {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  background: #fff;
-}
 
 .resume .resume_left .resume_social .semi-bold {
   color: #fff;
@@ -170,21 +161,26 @@ header {
   margin-bottom: 0;
 }
 
-
-.resume .resume_right .resume_hobby ul li i {
-  font-size: 30px;
-}
-
 .resume .resume_right .resume_success_formula img {
-    width: 350px;
-    height: 350px;
+    width: 230px;
+    height: 230px;
     box-shadow: 0 0 5px;
 }
 
+.resume .resume_right .resume_success_formula {
+  padding: 20px;
+  display: block;
+}
+
+.resume .resume_right .resume_success_formula .success_formula {
+  padding: 10px;
+}
+
 footer {
-    margin-bottom: -550px;
-    text-align: center;
-    position: absolute;
+  margin-bottom: -920px;
+  text-align: center;
+  position: absolute;
+  padding: 20px;
 	left: 0;
 	bottom: 0;
 	width: 100%;
