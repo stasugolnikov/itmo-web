@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Georgia";
+}
+
+body {
+  background: rgb(255, 255, 255);
+  font-size: 14px;
+  line-height: 18px;
+  color: #555555;
+}
+
+header {
+    background-color: #005c7e;
+    padding: 30px;    
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+table {
+    background: #dedddd;
+    border-collapse: collapse;
+    font-size: 19px;
+}
+
+main {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin: -125px 0 0 -125px;
+}
+
+.table_input {
+    text-align: center;
+    background: #dedddd;
+    border: 0 none;
+    font-size: 19px;
+}
+
+.table_input:focus {
+    outline: none !important;
+    font-size: 19px;
+}
+
+.button {
+   background-color: #f8f9fa;
+   border: 1px solid #f8f9fa;
+   border-radius: 4px;
+   color: #3c4043;
+   cursor: pointer;
+   height: 36px;
+   padding: 0 16px;
+   text-align: center;
+   font-size: 19px;
+   margin-bottom: 10px;
+}
+
+.button:hover {
+    border-color: #dadce0;
+    box-shadow: rgba(0, 0, 0, .1) 0 1px 1px;
+    color: #202124;
+}
+
+.button:focus {
+    border-color: #4285f4;
+    outline: none;
+}
+
+.table_section {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-constructor, .table_section {
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+.table-constructor__input {
+    background-color: #fafafa;
+    border:0;
+    box-shadow:0 0 4px rgba(0,0,0,0.3);
+    transition: .3s box-shadow;
+    font-size: 19px;
+    margin-bottom: 5%;
+    padding: 2%;
+}
+
+.table-constructor__input:hover {
+    box-shadow:0 0 4px rgba(0,0,0,0.5);
+    font-size: 19px;
+}
+
+p {
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+
+.error {
+    color: red;
+    font-size: 19px;
+}
+
+footer {
+    text-align: center;
+    padding: 2%;
+    position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+    font-size: 14px;
+    padding-bottom: 2%;
+}
+
+address {
+  text-decoration: underline
+}

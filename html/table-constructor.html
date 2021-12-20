@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="../css/table-constructor.css" />
+    <link rel="stylesheet" href="../css/outlines.css" />
+    <title>Угольников Станислав</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="../js/table-constructor.js"></script>
+</head>
+
+<body>
+    <header>
+        <i>Добро пожаловать в создатель таблиц!</i>
+    </header>
+        <main>
+            <section class="table-constructor">
+                <form name="constructor_input">
+                    <p>Высота</p>
+                    <input class="table-constructor__input" name="height" required>
+
+                    <p>Ширина</p>
+                    <input class="table-constructor__input" name="width" required>
+
+                    <input type="button" class="button" value="Создать" name="create" onclick="createClick()">
+                </form>
+            </section>
+
+            <section class="table_section">
+                <template>
+                    <table>
+                    </table>
+                </template>
+            </section>
+
+            <section class="table_manager">
+                <button name="save" class="button" onclick="saveClick()">Сохранить</button>
+                <button name="restore" class="button" onclick="restoreClick()">Восстановить</button>
+            </section>
+        </main>
+    </div>
+    
+    <footer>
+        <p>Created by Ugolnikov Stanislav</p>
+        <address>ITMO University, St. Perersburg, Russia</address>
+    </footer>
+
+</body>
+
+</html>

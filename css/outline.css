@@ -29,6 +29,7 @@ header {
 .semi-bold {
   font-weight: 500;
   font-size: 16px;
+  color: white;
 }
 
 .resume {
@@ -57,6 +58,7 @@ header {
 .resume .resume_left .resume_content {
   padding: 0 25px;
 }
+
 
 .resume .title {
   margin-bottom: 20px;
