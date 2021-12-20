@@ -6,18 +6,8 @@ function create(height, width) {
     const thead = document.createElement('thead');
     const tr = document.createElement('tr');
     thead.appendChild(tr);
-    for (let i = 0; i < width; i++) {
-        const td = document.createElement('td');
-        const input = document.createElement('input');
-        input.type = 'text';
-        input.id = `0:${i}`;
-        input.className = 'table_input';
-        input.value = `0`;
-        td.appendChild(input);
-        tr.appendChild(td);
-    }
     const tbody = document.createElement('tbody');
-    for (let i = 1; i < height; i++) {
+    for (let i = 0; i < height; i++) {
         const tr = document.createElement('tr');
         for (let j = 0; j < width; j++) {
             const td = document.createElement('td');
