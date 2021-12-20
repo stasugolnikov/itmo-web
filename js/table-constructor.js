@@ -80,7 +80,7 @@ function saveClick() {
 function restoreClick() {
     const tableData = window.localStorage.getItem('tableData');
     const dataParsed = JSON.parse(tableData);
-    createTable(dataParsed.height, dataParsed.width);
+    create(dataParsed.height, dataParsed.width);
     const data = dataParsed.data;
     for (let i = 0; i < data.length; i++) {
         for (let j = 0; j < data[i].length; j++) {
