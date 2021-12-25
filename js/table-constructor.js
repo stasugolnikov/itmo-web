@@ -14,7 +14,7 @@ function create(height, width) {
             const input = document.createElement('input');
             input.type = 'text';
             input.id = `${i}:${j}`;
-            input.value = `0`;
+            input.value = '0';
             input.className = 'table_input';
             td.appendChild(input);
             tr.appendChild(td);
@@ -72,10 +72,9 @@ function restoreClick() {
     const dataParsed = JSON.parse(tableData);
     create(dataParsed.height, dataParsed.width);
     const data = dataParsed.data;
-    for (let i = 0; i < data.length; i++) {
+    for (let i = 1; i < data.length; i++) {
         for (let j = 0; j < data[i].length; j++) {
-            const elem = document.getElementById(`${i}:${j}`);
-
+            const elem = document.getElementById(`${i - 1}:${j}`);
             elem.value = data[i][j];
         }
     }
